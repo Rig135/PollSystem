@@ -1,0 +1,67 @@
+body {
+    background-color: #f7ede2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    padding: 0.8em;
+    background-color: #f5cac3;
+    border-radius: 0.8em;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #d1aca5;
+}
+
+.heading h1 {
+    margin-bottom: 0;
+}
+
+.poll {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 50%;
+    height: 50%;
+    border-radius: 0.8em;
+    border: 2px solid black;
+}
+
+.removeDecor {
+    border: none;
+    padding: 5px;
+    margin: 5px 0;
+    background-color: transparent;
+    font-size: 1.17em;
+    font-weight: bold;
+    resize: none;
+    outline: none;
+}
+
+.polloptions {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"] {
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 1em;
+}
+
+.removeDecor2 {
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px 0;
+    background-color: transparent;
+    font-size: 1.17em;
+    font-weight: bold;
+    resize: none;
+    outline: none;
+}
